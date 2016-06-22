@@ -8,7 +8,7 @@
       "value": "XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX"
     },
     "JIRA_PROJECT_KEY": {
-      "description":"Enter the project key from JIRA"
+      "description":"Enter the project key from JIRA",
       "value": "PROJ"
     },
     "JIRA_URL": {
@@ -19,15 +19,15 @@
       "value": "default.jira.server"
     },
     "JIRA_USERNAME": {
-      "description": "Be sure to use the username, not the user email"
+      "description": "Be sure to use the username, not the user email",
       "value": ""
     },
     "JIRA_PASSWORD": {
       "value": ""
-    }
+    },
     "LINK_SEPARATOR": {
       "description":"use \\n if you want to put each link on a new line",
-      "value": ", ",
+      "value": ", "
     }
   }
 }
