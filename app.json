@@ -1,0 +1,33 @@
+{
+  "name": "slack-jira-plugin",
+  "description": "A Slack plugin that watches channels for messages about JIRA and acts accordingly",
+  "keywords": ["slack","jira"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "Slack API token - generate one here https://api.slack.com/web",
+      "value": "XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX"
+    },
+    "JIRA_PROJECT_KEY": {
+      "description":"Enter the project key from JIRA"
+      "value": "PROJ"
+    },
+    "JIRA_URL": {
+      "value": "https://default.jira.server/browse/"
+    },
+    "JIRA_HOST": {
+      "description" : "This will be related to your JIRA_URL",
+      "value": "default.jira.server"
+    },
+    "JIRA_USERNAME": {
+      "description": "Be sure to use the username, not the user email"
+      "value": ""
+    },
+    "JIRA_PASSWORD": {
+      "value": ""
+    }
+    "LINK_SEPARATOR": {
+      "description":"use \\n if you want to put each link on a new line",
+      "value": ", ",
+    }
+  }
+}

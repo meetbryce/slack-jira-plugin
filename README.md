@@ -6,6 +6,15 @@ It does the following:
 
 1. Automatically append a link to a message whenever there is a mention of a JIRA issue in the message
 
+## Running on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+NB: the default deployment only supports a single project per-instance.
+
+1. Use the Heroku Deploy button above, or alternatively clone this repository and [deploy it to Heroku using Git](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
+1. ??
+
 ## Usage
 
 ```javascript
